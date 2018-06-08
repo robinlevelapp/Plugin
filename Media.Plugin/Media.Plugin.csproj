@@ -12,9 +12,9 @@
 		<PackageId>LevelApp.Plugin.Media</PackageId>
 		<PackOnBuild>true</PackOnBuild>
 		<PackageIconUrl></PackageIconUrl>
-		<PackageLicenseUrl>https://github.com/robinlevelapp/OtherPlugin/blob/master/LICENSE</PackageLicenseUrl>
+		<PackageLicenseUrl>https://github.com/robinlevelapp/Plugin/blob/master/LICENSE</PackageLicenseUrl>
 		<Owners>JamesMontemagno</Owners>
-		<PackageProjectUrl>https://github.com/robinlevelapp/OtherPlugin</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/robinlevelapp/Plugin</PackageProjectUrl>
 		<Summary>Take or pick photos and videos from a cross platform API.</Summary>
 		<PackageTags>levelapp</PackageTags>
 		<Title>Media Plugin for Xamarin and Windows</Title>
@@ -22,8 +22,8 @@
 			Take or pick photos and videos from a cross platform API.
 		</Description>
 		<Copyright>Copyright 2018</Copyright>
-		<RepositoryUrl>https://github.com/robinlevelapp/OtherPlugin</RepositoryUrl>
-		<PackageReleaseNotes>See: https://github.com/robinlevelapp/OtherPlugin</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/robinlevelapp/Plugin</RepositoryUrl>
+		<PackageReleaseNotes>See: https://github.com/robinlevelapp/Plugin</PackageReleaseNotes>
 
 		<NeutralLanguage>en</NeutralLanguage>
 		<LangVersion>default</LangVersion>

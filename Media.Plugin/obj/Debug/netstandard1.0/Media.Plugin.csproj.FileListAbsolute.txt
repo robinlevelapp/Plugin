@@ -7,3 +7,12 @@ C:\Users\john.remedio\Documents\GitHub\MediaPlugin\src\Media.Plugin\obj\Debug\ne
 C:\Users\john.remedio\Documents\GitHub\MediaPlugin\src\Media.Plugin\obj\Debug\netstandard1.0\Media.Plugin.AssemblyInfo.cs
 C:\Users\john.remedio\Documents\GitHub\MediaPlugin\src\Media.Plugin\obj\Debug\netstandard1.0\Plugin.Media.dll
 C:\Users\john.remedio\Documents\GitHub\MediaPlugin\src\Media.Plugin\obj\Debug\netstandard1.0\Plugin.Media.pdb
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\bin\Debug\netstandard1.0\Plugin.Media.deps.json
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\bin\Debug\netstandard1.0\Plugin.Media.dll
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\bin\Debug\netstandard1.0\Plugin.Media.pdb
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\obj\Debug\netstandard1.0\Media.Plugin.csprojAssemblyReference.cache
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\obj\Debug\netstandard1.0\Media.Plugin.csproj.CoreCompileInputs.cache
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\obj\Debug\netstandard1.0\Media.Plugin.AssemblyInfoInputs.cache
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\obj\Debug\netstandard1.0\Media.Plugin.AssemblyInfo.cs
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\obj\Debug\netstandard1.0\Plugin.Media.dll
+C:\Users\john.remedio\Documents\GitHub\Plugin\Media.Plugin\obj\Debug\netstandard1.0\Plugin.Media.pdb

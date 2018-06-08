@@ -7,7 +7,7 @@
   "targets": {
     "Tizen,Version=v4.0": {},
     "Tizen,Version=v4.0/": {
-      "Plugin.Media/1.0.0.0": {
+      "Plugin.Media/1.0.0.9": {
         "dependencies": {
           "MSBuild.Sdk.Extras": "1.4.0",
           "Plugin.Permissions": "3.0.0.12",
@@ -112,7 +112,7 @@
     }
   },
   "libraries": {
-    "Plugin.Media/1.0.0.0": {
+    "Plugin.Media/1.0.0.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

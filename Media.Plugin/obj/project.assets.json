@@ -32896,11 +32896,11 @@
   "project": {
     "version": "1.0.0.9",
     "restore": {
-      "projectUniqueName": "C:\\Users\\john.remedio\\Documents\\GitHub\\OtherPlugin\\src\\Media.Plugin\\Media.Plugin.csproj",
+      "projectUniqueName": "C:\\Users\\john.remedio\\Documents\\GitHub\\Plugin\\Media.Plugin\\Media.Plugin.csproj",
       "projectName": "LevelApp.Plugin.Media",
-      "projectPath": "C:\\Users\\john.remedio\\Documents\\GitHub\\OtherPlugin\\src\\Media.Plugin\\Media.Plugin.csproj",
+      "projectPath": "C:\\Users\\john.remedio\\Documents\\GitHub\\Plugin\\Media.Plugin\\Media.Plugin.csproj",
       "packagesPath": "C:\\Users\\john.remedio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\john.remedio\\Documents\\GitHub\\OtherPlugin\\src\\Media.Plugin\\obj\\",
+      "outputPath": "C:\\Users\\john.remedio\\Documents\\GitHub\\Plugin\\Media.Plugin\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -32920,6 +32920,7 @@
         "uap10.0.16299"
       ],
       "sources": {
+        "C:\\NuGet.Local": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

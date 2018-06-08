@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("James Montemagno")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LevelApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright 2018")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("\r\n\t\t\tTake or pick photos and videos from a cross platform API.\r\n\t\t")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Plugin.Media (MonoAndroid71)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Plugin.Media")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

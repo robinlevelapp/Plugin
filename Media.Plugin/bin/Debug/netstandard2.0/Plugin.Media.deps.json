@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Plugin.Media/1.0.0.0": {
+      "Plugin.Media/1.0.0.9": {
         "dependencies": {
           "MSBuild.Sdk.Extras": "1.4.0",
           "NETStandard.Library": "2.0.1",
@@ -32,7 +32,7 @@
     }
   },
   "libraries": {
-    "Plugin.Media/1.0.0.0": {
+    "Plugin.Media/1.0.0.9": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
