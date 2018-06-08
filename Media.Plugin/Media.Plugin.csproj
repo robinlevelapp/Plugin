@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard1.0;netstandard2.0;MonoAndroid71;Xamarin.iOS10;uap10.0.16299;Tizen40</TargetFrameworks>
+		<AssemblyName>Plugin.Media</AssemblyName>
+		<RootNamespace>Plugin.Media</RootNamespace>
+		<Product>$(AssemblyName) ($(TargetFramework))</Product>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
+		<Version>1.0.0.9</Version>
+		<Authors>LevelApp</Authors>
+		<PackageId>LevelApp.Plugin.Media</PackageId>
+		<PackOnBuild>true</PackOnBuild>
+		<PackageIconUrl></PackageIconUrl>
+		<PackageLicenseUrl>https://github.com/robinlevelapp/OtherPlugin/blob/master/LICENSE</PackageLicenseUrl>
+		<Owners>JamesMontemagno</Owners>
+		<PackageProjectUrl>https://github.com/robinlevelapp/OtherPlugin</PackageProjectUrl>
+		<Summary>Take or pick photos and videos from a cross platform API.</Summary>
+		<PackageTags>levelapp</PackageTags>
+		<Title>Media Plugin for Xamarin and Windows</Title>
+		<Description>
+			Take or pick photos and videos from a cross platform API.
+		</Description>
+		<Copyright>Copyright 2018</Copyright>
+		<RepositoryUrl>https://github.com/robinlevelapp/OtherPlugin</RepositoryUrl>
+		<PackageReleaseNotes>See: https://github.com/robinlevelapp/OtherPlugin</PackageReleaseNotes>
+
+		<NeutralLanguage>en</NeutralLanguage>
+		<LangVersion>default</LangVersion>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+		<DefineConstants>$(DefineConstants);</DefineConstants>
+
+		<FileVersion>1.0.0.0</FileVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)'=='Release' ">
+		<DebugType>pdbonly</DebugType>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\nuget\readme.txt" PackagePath="readme.txt" Pack="true" />
+		<PackageReference Include="MSBuild.Sdk.Extras" Version="1.4.0" PrivateAssets="All" />
+		<PackageReference Include="Plugin.Permissions" Version="3.0.0.12" />
+		<Compile Include="**\Shared\*.cs" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard')) ">
+	</ItemGroup>
+
+	<ItemGroup Condition=" $(TargetFramework.StartsWith('uap10.0')) ">
+		<PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="5.2.3" />
+		<Compile Include="**\UWP\*.cs" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid')) ">
+		<PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="25.4.0.2" />
+		<Compile Include="**\Android\*.cs" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" $(TargetFramework.StartsWith('Xamarin.iOS')) ">
+		<Compile Include="**\iOS\*.cs" />
+	</ItemGroup>
+
+
+
+	<ItemGroup Condition=" $(TargetFramework.StartsWith('Tizen')) ">
+		<Compile Include="**\Tizen\*.cs" />
+		<PackageReference Include="Tizen.NET" Version="4.0.0" />
+	</ItemGroup>
+
+
+
+	<Import Project="$(MSBuildSDKExtrasTargets)" Condition="Exists('$(MSBuildSDKExtrasTargets)')" />
+
+</Project>
